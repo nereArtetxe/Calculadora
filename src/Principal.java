@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Principal {
 
@@ -7,9 +8,16 @@ public class Principal {
 		int num2=0;
 		int res=0;
 		
-		private static int suma(num1, num2){
-			return;
-		}
+		Scanner leo=new Scanner(System.in);
+		System.out.println("Introduce el primer número");
+		num1= leo.nextInt();
+		
+		System.out.println("Introduce el segundo número");
+		num2= leo.nextInt();
+		
+		System.out.println("Introduce la operación a realizar");
+		String operacion=leo.next();
+	
 	}
 
 }
