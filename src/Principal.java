@@ -18,11 +18,16 @@ public class Principal {
 		System.out.println("Introduce la operación a realizar");
 		String operacion=leo.next();
 		
+		Principal calc=new Principal();
+		
 		if(operacion.equals("+")) {
+			calc.sumar(num1, num2);
 			
 		}else if(operacion.equals("-")) {
+			calc.restar(num1, num2);
 			
 		}else if(operacion.equals("*")) {
+	
 			
 		}else if(operacion.equals("/")) {
 			
