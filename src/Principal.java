@@ -17,7 +17,27 @@ public class Principal {
 		
 		System.out.println("Introduce la operación a realizar");
 		String operacion=leo.next();
+		
+		if(operacion.equals("+")) {
+			
+		}else if(operacion.equals("-")) {
+			
+		}else if(operacion.equals("*")) {
+			
+		}else if(operacion.equals("/")) {
+			
+		}
 	
+	}
+	
+	public int sumar(int n1, int n2) {
+		int r=n1+n2;
+		return r;
+	}
+	
+	public int restar(int n1, int n2) {
+		int r=n1-n2;
+		return r;
 	}
 
 }
